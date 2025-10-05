@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Énigme 2 – Freya Flesch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="page-enigme2">
+  <h2>Énigme 2 : Freya Flesch</h2>
+  <ul>
+    <li>Le 07 mars 20XX, Leslia DuBoid (54 kg) est tuée par Freya Flesch</li>
+    <li>Freya a avoué le meurtre sans révéler l’arme</li>
+    <li>Leslia a touché trois objets contaminés :</li>
+    <ul>
+      <li>La tasse : 6 mg de curare pancuronium</li>
+      <li>La cuillère : 5 mg de cyanure</li>
+      <li>L’assiette : 9 mg de trioxyde d’arsenic</li>
+    </ul>
+  </ul>
+  <p>
+    <strong>Question :</strong> Quelle fut l’arme du crime ?
+  </p>
+  <form id="choiceForm">
+    <label>
+      <input type="radio" name="poisonChoice" value="curare">
+      La tasse (Curare)
+    </label><br>
+    <label>
+      <input type="radio" name="poisonChoice" value="cyanure">
+      La cuillère (Cyanure)
+    </label><br>
+    <label>
+      <input type="radio" name="poisonChoice" value="arsenic">
+      L’assiette (Arsenic)
+    </label><br><br>
+    <button type="submit">Vérifier</button>
+  </form>
+  <p id="result"></p>
+  <p>Progression : <span id="valeurCookie">2</span></p>
+  <button id="continueBtn"></button>
+  <button id="resetBtn">Réinitialiser</button>
+</body>
+</html>
