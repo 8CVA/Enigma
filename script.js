@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (continueBtn) {
             continueBtn.style.display = 'inline-block';
             continueBtn.textContent = 'Continuer vers énigme 2';
-            continueBtn.onclick = () => { location.href = 'enigme2.html'; };
+            continueBtn.onclick = () => { location.href = 'enigme 2.html'; };
           }
         } else {
           resultEl.innerHTML = "<em>Mauvaise réponse, essaie encore.</em>";
@@ -147,3 +147,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
